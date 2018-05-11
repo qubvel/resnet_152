@@ -1,5 +1,8 @@
 # ResNet-152 model for Keras
 
+Reference:
+- [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+
 Extention of model taken [here](https://gist.github.com/flyyufelix/7e2eafb149f72f4d38dd661882c554a6).  
 Model made in Keras style with pretrained weights from ImageNet provided in release (load automatically during model initialization).  
 
