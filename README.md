@@ -28,7 +28,7 @@ def preprocess(x):
         x = np.expand_dims(x, 0)
     return x
 
-# prepare img
+# prepare image
 img = imread('./imgs/cat.jpg')
 x = preprocess(img)
 
