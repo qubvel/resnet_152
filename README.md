@@ -32,7 +32,7 @@ def preprocess(x):
 img = imread('./imgs/cat.jpg')
 x = preprocess(img)
 
-# make prediction end decode it
+# make prediction and decode it
 y = model.predict(x)
 pred_title = decode_predictions(y, top=1)[0][0][1]
 
